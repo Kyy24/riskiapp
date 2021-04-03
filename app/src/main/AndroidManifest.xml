@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.riskiapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Riskiapp">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="RS"/>
+        <activity android:name="RSAwalBross"/>
+        <activity android:name=".RSJiwaTampan"/>
+        <activity android:name=".RSTabrani"/>
+        <activity android:name=".RSEkaHospital"/>
+        <activity android:name=".RSSyafira"/>
+        <activity android:name=".POLICE"/>
+        <activity android:name=".PolsekTMPN"/>
+        <activity android:name=".SEKOLAH"/>
+        <activity android:name=".SMA2PKU"/>
+        <activity android:name=".SUPERMARKET"/>
+        <activity android:name=".GIANT"/>
+    </application>
+
+</manifest>
